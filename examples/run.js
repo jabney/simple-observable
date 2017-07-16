@@ -38,5 +38,5 @@ module.exports = function run(Observable) {
         subject.stop()
       }, 1000)
     }
-  }, 1000)
+  }, 500)
 }
