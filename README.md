@@ -3,6 +3,10 @@
 
 A simple, no-frills subject-observer class written in TypeScript.
 
+- [Repository](https://github.com/jabney/simple-observable)
+- [Implementation](https://github.com/jabney/simple-observable/tree/master/src)
+- [Examples](https://github.com/jabney/simple-observable/tree/master/examples)
+
 ### Installation
 ```bash
 > npm install simple-observable
