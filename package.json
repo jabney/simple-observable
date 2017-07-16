@@ -6,7 +6,8 @@
   "repository": "https://github.com/jabney/simple-observable",
   "scripts": {
     "build": "rm -rf lib/*.* && tsc",
-    "test": "npm run build && mocha lib/*.test.js"
+    "test": "npm run build && mocha lib/*.test.js",
+    "prepublish": "npm build"
   },
   "keywords": [
     "event",
