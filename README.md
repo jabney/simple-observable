@@ -9,7 +9,7 @@ A simple, no-frills subject-observer class written in TypeScript.
 
 ### Installation
 ```bash
-> npm install simple-observable
+> npm install simple-subject-observer
 ```
 
 ### From source
@@ -26,7 +26,7 @@ A simple, no-frills subject-observer class written in TypeScript.
 ### Usage
 ```JavaScript
 // Import the class
-const SimpleObservable = require('simple-observable')
+const SimpleObservable = require('simple-subject-observer')
 
 // Create an instance
 const subject = new SimpleObservable()
