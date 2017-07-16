@@ -3,11 +3,29 @@
   "version": "0.1.0",
   "description": "A class which notifies subscribers of events",
   "main": "index.js",
-  "repository": "https://github.com/jabney/simple-observable",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^8.0.13",
+    "mocha": "^3.4.2",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.1"
+  },
   "scripts": {
     "build": "rm -rf lib/*.* && tsc",
     "test": "npm run build && mocha lib/*.test.js",
-    "prepublish": "npm run test"
+    "postinstall": "npm run build",
+    "prepublish": "npm run test",
+    "prepare": "npm run test",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabney/simple-observable.git"
   },
   "keywords": [
     "event",
@@ -19,12 +37,8 @@
   ],
   "author": "James Abney",
   "license": "MIT",
-  "devDependencies": {
-    "@types/mocha": "^2.2.41",
-    "@types/node": "^8.0.13",
-    "mocha": "^3.4.2",
-    "tslint": "^5.5.0",
-    "typescript": "^2.4.1"
+  "bugs": {
+    "url": "https://github.com/jabney/simple-observable/issues"
   },
-  "dependencies": {}
+  "homepage": "https://github.com/jabney/simple-observable#readme"
 }
