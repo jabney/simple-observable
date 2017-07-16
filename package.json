@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A class which notifies subscribers of events",
   "main": "index.js",
+  "repository": "https://github.com/jabney/simple-observable",
   "scripts": {
     "build": "rm -rf lib/*.* && tsc",
     "test": "npm run build && mocha lib/*.test.js"
