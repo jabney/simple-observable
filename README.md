@@ -24,7 +24,7 @@ A simple, no-frills subject-observer class written in TypeScript.
 ```
 
 ### Usage
-```JavaScript
+```javascript
 // Import the class
 const SimpleObservable = require('simple-subject-observer')
 
