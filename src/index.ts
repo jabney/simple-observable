@@ -1,2 +1,2 @@
 export { SimpleObservable } from './simple-observable'
-export { TNotifyCallback } from './notify-callback'
+export { ISubscriptionToken } from './subscription-token'
