@@ -1,6 +1,6 @@
 {
   "name": "simple-subject-observer",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "A class which notifies subscribers of events",
   "main": "index.js",
   "directories": {
