@@ -16,7 +16,9 @@
     "typescript": "^2.4.1"
   },
   "scripts": {
-    "build": "rm -rf lib/*.* && tsc",
+    "build": "npm run build-source && npm run build-index",
+    "build-index": "tsc --declaration index.ts",
+    "build-source": "rm -rf lib/*.* && tsc",
     "test": "npm run build && mocha lib/*.test.js"
   },
   "repository": {
