@@ -58,7 +58,9 @@ typings/
 .env
 
 # Generated files
-lib/
+/lib/
+/index.d.ts
+/index.js
 
 # Visual Studio Code
 .vscode/
