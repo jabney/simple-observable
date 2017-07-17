@@ -62,3 +62,16 @@ subscriber 1: {message: "notified"}
 subscriber 2: {message: "notified"}
 ```
 
+### Using TypeScript
+
+If your `tsconfig.json` is set up to use commonjs modules, e.g., `"module": "commonjs"`, you can use `require`:
+
+```typescript
+import SimpleObservable = require('simple-subject-observer')
+```
+
+However this doesn't work when using ES2015 modules, e.g., `"module": "es2015"`. In this case, use the TypeScript source:
+
+```typescript
+import { SimpleObjservable } from 'simple-subject-observer/src'
+```
