@@ -1,1 +1,2 @@
-export * from './simple-observable'
+export { SimpleObservable } from './simple-observable'
+export { TNotifyCallback } from './notify-callback'
